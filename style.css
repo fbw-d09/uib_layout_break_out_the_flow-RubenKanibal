@@ -1,6 +1,44 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
 }
 
+.helloworld {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin: 0 auto;
+    position: relative;
+    top: 7px;
+    right: 5px;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 85);
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 183, 255);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
